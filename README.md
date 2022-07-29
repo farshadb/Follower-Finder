@@ -7,3 +7,5 @@ At first you should [Sign up ](https://developer.twitter.com/)for Twitter API se
 From Twitter [end-point API](https://developer.twitter.com/en/docs/twitter-api/migrate/twitter-api-endpoint-map) we use [Get followers/ids](https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/get-followers-ids) and [Get users/show](https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/get-users-show) method.
 
 You can find all tools in twitter [Tools and libraries](https://developer.twitter.com/en/docs/twitter-ads-api/tools-and-libraries) in this case used [Go-twitter](https://github.com/dghubble/go-twitter) library for Golang.
+
+In twitter V2 API you should create a project to use API but I use API V1.1 and I create an stand-alone app [here](https://developer.twitter.com/en/portal/projects-and-apps) to get API credentionlas. And here we are done in server side tasks.
