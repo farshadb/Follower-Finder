@@ -9,3 +9,10 @@ From Twitter [end-point API](https://developer.twitter.com/en/docs/twitter-api/m
 You can find all tools in twitter [Tools and libraries](https://developer.twitter.com/en/docs/twitter-ads-api/tools-and-libraries) in this case used [Go-twitter](https://github.com/dghubble/go-twitter) library for Golang.
 
 In twitter V2 API you should create a project to use API but I use API V1.1 and I create an stand-alone app [here](https://developer.twitter.com/en/portal/projects-and-apps) to get API credentionlas. And here we are done in server side tasks.
+
+In this app I used [oauth1](https://github.com/dghubble/oauth1) library. use your own cridentional instedd of:
+```
+config := oauth1.NewConfig("consumerKey", "consumerSecret")
+token := oauth1.NewToken("accessToken", "accessSecret")
+```
+
